@@ -1,24 +1,61 @@
-def twenty_nineteen():
-    """Come up with the most creative expression that evaluates to 2019,
-    using only numbers and the +, *, and - operators.
+from testcases import test_cases_q1, test_cases_q2, test_cases_q3
 
-    >>> twenty_nineteen()
-    2019
+''' Strings Practice '''
+
+
+# QUESTION 1
+def hello_world():
+    """Below save a variable (message) as the string 'hello world'
+       and return that variable
+
+    >>> hello_world()
+    hello world
     """
-    return #CODE HERE
+    message = #YOUR CODE HERE
+    return message
+
+test_cases_q1(hello_world()) 
+print('')
+print('')
 
 
-def test_cases():
-    total = 0
-    if twenty_nineteen() == 2019:
-        print('Test Passed!)
-        test+=1
-    else:
-        print('Test Failed')
-        print('Expected: 2019')
-        print('Got: ' + str(twenty_nineteen()))
-              
-    print(str(total/1))
 
-              
-test_cases()              
+# QUESTION 2
+def add_strings():
+  """Create a string variable ('balloon') return the sum of the string to itself
+  >>> add_strings()
+  balloonballoon
+  """
+  #YOUR CODE HERE
+  message = 
+  return #YOUR CODE HERE
+
+test_cases_q2(add_strings())
+print('')
+print('')
+
+
+
+# QUESTION 3 CHALLENGE
+def count_and_replace():
+  """Count the index of the string 
+  ('12121212121212121212')
+  
+  Then replace that value in the string with the variable ('2')
+
+  Hint 1: Try using .count and .replace  
+  Hint 2: What index is '12121212121212121212' in?
+
+  >>> count_and_replace()
+  22222222222222222222
+  """
+  original = '12121212121212121212'
+  new = '2'
+  #YOUR CODE HERE
+  count = 
+  new_message = original.replace(str(count), ____) #YOUR CODE HERE
+
+  print('    Question 3')
+  print(new_message)
+
+test_cases_q3(count_and_replace())

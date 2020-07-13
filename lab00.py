@@ -1,6 +1,8 @@
 from testcases import test_cases_q1, test_cases_q2, test_cases_q3
 
-''' Strings Practice '''
+''' Strings Practice 
+Fill in the '' to answer the questions
+'''
 
 
 # QUESTION 1
@@ -11,7 +13,9 @@ def hello_world():
     >>> hello_world()
     hello world
     """
-    message = #YOUR CODE HERE
+    #START CODE HERE
+    message = ''
+    #END OF CODE
     return message
 
 test_cases_q1(hello_world()) 
@@ -27,8 +31,8 @@ def add_strings():
   balloonballoon
   """
   #START CODE HERE
-  message = 
-  return 
+  message = ''
+  return ''
   #END OF CODE
 
 test_cases_q2(add_strings())
@@ -53,8 +57,8 @@ def count_and_replace():
   original = '12121212121212121212'
   new = '2'
   #START CODE HERE
-  count = 
-  new_message = original.replace(str(count), ____) 
+  count = ''
+  new_message = original.replace(str(count), '') 
   #END OF CODE
   print('    Question 3')
   print(new_message)

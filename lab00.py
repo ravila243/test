@@ -26,9 +26,10 @@ def add_strings():
   >>> add_strings()
   balloonballoon
   """
-  #YOUR CODE HERE
+  #START CODE HERE
   message = 
-  return #YOUR CODE HERE
+  return 
+  #END OF CODE
 
 test_cases_q2(add_strings())
 print('')
@@ -51,10 +52,10 @@ def count_and_replace():
   """
   original = '12121212121212121212'
   new = '2'
-  #YOUR CODE HERE
+  #START CODE HERE
   count = 
-  new_message = original.replace(str(count), ____) #YOUR CODE HERE
-
+  new_message = original.replace(str(count), ____) 
+  #END OF CODE
   print('    Question 3')
   print(new_message)
 

@@ -1,16 +1,35 @@
 """ TEST CASES """
-def test_cases():
-    total = 0
-    if twenty_nineteen() == 2019:
-        print('q1t1: Test Passed!')
-        total+=1
-    else:
-        print('q1t1: Test Failed')
-        print('Expected: 2019')
-        print('Got: ' + str(twenty_nineteen()))
+def test_cases_q1(func):
+  print('    Question 1')
+  total=0
+  if func == 'hello world':
+      print('q1t1: Test Passed!')
+      total+=1
+  else:
+      print('q1t1: Test Failed')
+      print('Expected: hello world')
+      print('Got: ' + str(func))
 
-    print('')         
-    print(str(total/1 * 100) + '% Correct')
+  print('')         
+  print(str(total/1 * 100) , '% Correct')
 
               
-test_cases() 
+def test_cases_q2(func):
+  print('    Question 2')
+  total=0
+  if func == 'balloonballoon':
+      print('q2t1: Test Passed!')
+      total+=1
+  else:
+      print('q2t1: Test Failed')
+      print('Expected: balloon')
+      print('Got: ' + str(func))
+
+  print('')         
+  print(str(total/1 * 100) , '% Correct')
+
+
+def test_cases_q3(func):
+  print('Expexted: 22222222222222222222')
+  print('')
+  print('If true, congrats!') 

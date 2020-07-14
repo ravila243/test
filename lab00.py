@@ -43,13 +43,14 @@ print('')
 
 # QUESTION 3 CHALLENGE
 def count_and_replace():
+  print('    Question 3')
   """Count the index of the string 
   ('12121212121212121212')
   
   Then replace that value in the string with the variable ('2')
 
   Hint 1: Try using .count and .replace  
-  Hint 2: What index is '12121212121212121212' in?
+  Hint 2: What index is '12121212121212121212'?
 
   >>> count_and_replace()
   22222222222222222222
@@ -60,7 +61,6 @@ def count_and_replace():
   count = ''
   new_message = original.replace(str(count), '') 
   #END OF CODE
-  print('    Question 3')
   print(new_message)
 
 test_cases_q3(count_and_replace())

@@ -27,9 +27,4 @@ def test_cases_q2(func):
 
   print('')         
   print(str(total/1 * 100) , '% Correct')
-
-
-def test_cases_q3(func):
-  print('Expexted: 22222222222222222222')
-  print('')
-  print('If true, congrats!') 
+ 

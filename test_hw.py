@@ -1,4 +1,4 @@
-from testcases import test_cases_q1, test_cases_q2, test_cases_q3
+from testcases import test_cases_q1, test_cases_q2
 
 ''' Strings Practice 
 Fill in the '' to complete the code
